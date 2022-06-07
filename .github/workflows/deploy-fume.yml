@@ -2,7 +2,7 @@
 name: Deploy with Fume
 on:
   push:
-    branches: [ staging, production ]
+    branches: [ develop, master ]
 
 jobs:
   fume:
