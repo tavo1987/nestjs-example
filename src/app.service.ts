@@ -3,7 +3,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    const fullName = 'Hello from the other side nestjs!!!!';
+    const fullName = 'Hello, NestJS';
     return fullName;
   }
 
